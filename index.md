@@ -25,8 +25,10 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](src)
 
-[TEST](http://www.bing.com)
+
 ```
+
+[TEST](http://www.bing.com)
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
