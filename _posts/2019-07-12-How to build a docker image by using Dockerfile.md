@@ -1,6 +1,8 @@
 ---
 title: How to build a docker image by using Dockerfile
 layout: post
+categories: Docker
+tags: docker
 ---
 ## docker build
 
