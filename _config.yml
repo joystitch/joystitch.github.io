@@ -6,7 +6,7 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Joy's Note
+title: Joy's Blog
 author: Joy
 description: > # this means to ignore newlines until "baseurl:"
   This theme is disigned based on Mailbox Blog, and licensed under MIT.
