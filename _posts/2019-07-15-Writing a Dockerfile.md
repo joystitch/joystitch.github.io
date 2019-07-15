@@ -17,7 +17,7 @@ In the /images folder:
     $ docker build -t myimage:latest .
 
 * -t is the Docker image tag, you can give a name to your image and a tag.
-* The second parameter (.) sepecifies the location of the Dockerfile that we created. Since we created the Dockerfile in the same filder in which we are running the docker build, we specified the current dicrectory "." .
+* The second parameter (.) sepecifies the location of the Dockerfile that we created. Since we created the Dockerfile in the same filder in which we are running the docker build, we specified the current dicrectory "." .  
 
     $ docker build -t myimage:latest .
 
