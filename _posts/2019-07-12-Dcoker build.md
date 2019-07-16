@@ -40,4 +40,9 @@ Name and optionally a tag in the 'name:tag' format
 $docker tag SOURCE_IMAGE[:TAG] TARGET_IMAGE[:TAG]
 ```
 
-### docker run
+### docker run  
+* Run a command in a new container    
+* -d Run container in background and print container ID.  
+* -p 指定端口映射，格式为：宿主端口：容器端口  
+* --name="nginx-lb"： 为容器指定一个名字
+
