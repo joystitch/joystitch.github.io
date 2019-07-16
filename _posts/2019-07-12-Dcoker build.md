@@ -21,7 +21,13 @@ When building a Dockerfile with multiple build stages, --target can be used to s
     ...
     
 
-    $ docker build --target build-env
+    $ docker build --target build-env  
+
+* Do not use cache when building the image [--no-cache]  
+```
+docker build --no-cache --target stage1 -t harbor.sonicwall.cn:4433/captureatp-taf/taf:$(VERSION) .
+```
+使用了--no-cache,再build的时候，每一层的镜像ID会不同
 
 * --tag,-t
 
@@ -50,4 +56,4 @@ $docker tag SOURCE_IMAGE[:TAG] TARGET_IMAGE[:TAG]
 
 ```
 If you visit via host ip like:http://10.103.64.133:80, It will display:  
-
+[NGINX Server](http://10.103.64.133/)  
