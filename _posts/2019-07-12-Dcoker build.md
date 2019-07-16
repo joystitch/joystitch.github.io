@@ -44,5 +44,10 @@ $docker tag SOURCE_IMAGE[:TAG] TARGET_IMAGE[:TAG]
 * Run a command in a new container    
 * -d Run container in background and print container ID.  
 * -p 指定端口映射，格式为：宿主端口：容器端口  
-* --name="nginx-lb"： 为容器指定一个名字
+* --name="nginx-lb"： 为容器指定一个名字  
+```
+ docker run -d -p 80:80 --name webserver 6502b237ddd1
+
+```
+If you visit via host ip like:http://10.103.64.133:80, It will display:  
 
