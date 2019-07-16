@@ -36,5 +36,8 @@ Name and optionally a tag in the 'name:tag' format
 
 * Create a tag TARGET_IMAGE that refers to SOURCE_IMAGE
    
+```
+$docker tag SOURCE_IMAGE[:TAG] TARGET_IMAGE[:TAG]
+```
 
-     docker tag SOURCE_IMAGE[:TAG] TARGET_IMAGE[:TAG]
+### docker run
