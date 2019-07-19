@@ -14,7 +14,7 @@ no passphrase, public key and private key will be saved in ~/.ssh/id_rsa.pub.
 
 3. Copy private key from id_rsa.pub. to Key under SSH Keys page and save.  
 
-4. Go to Jenkins -> Credentials ->Global Credentials -> Add credentials. 
+4. Go to Jenkins -> Credentials ->Global Credentials -> Add credentials.   
   __Kind__: SSH Username with private key  
   __Username__: Gitlab's username  
   __Private key__: Copy the private key from linux(~/.ssh/id_rsa) to Key  
