@@ -19,7 +19,7 @@ no passphrase, public key and private key will be saved in ~/.ssh/id_rsa.pub.
   __Username__: Gitlab's username  
   __Private key__: Copy the private key from linux(~/.ssh/id_rsa) to Key  
   __Passphrase__: no passphrase  
-  __Description__: Give a description to let user easy to recognized.
+  __Description__: Give a description to let user easy to recognized.  
   Save the configuraion.  
   
 5. When we create a pipeline, Repository URL should be ssh format:
